@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp UI Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./main.css">
+    <link rel="icon" href="./Images/favicon.png">
+</head>
+
+<body>
+    <div id="wrapper" class="w-screen h-screen overflow-hidden md:bg-green-300 md:p-6">
+        <div id="main-section" class="w-full h-full relative md:static md:flex ">
+            <div id="left" class="w-full h-full absolute top-0 z-20 overflow-hidden bg-gray-100  md:w-1/2 md:static">
+                <header class="h-28  border-b-2 flex flex-col justify-between">
+                    <nav class="flex justify-between items-center px-6 h-3/6 bg-gray-200 text-gray-500">
+                        <div class="text-4xl">
+                            <a href=""><i class="fa-solid fa-circle-user"></i></a>
+                        </div>
+                        <div class="text-lg text-slate-600 flex gap-10">
+                            <a title="Community" href=""><i class="fa-solid fa-users"></i></a>
+                            <a title="Status" href=""><i class="fa-solid fa-circle-dot"></i></a>
+                            <a title="New chat" href=""><i class="fa-solid fa-message"></i></a>
+                            <a title="Menu" href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </nav>
+                    <div id="search-bar" class=" text-slate-600 flex items-center justify-around mb-2">
+                        <div class="w-[80%] bg-slate-200 flex justify-between items-center rounded-md overflow-hidden">
+                            <i class="fa-solid fa-magnifying-glass w-[10%] px-2"></i>
+                            <input type="text" class="w-[90%] text-sm placeholder-inherit py-2 bg-gray-200 text-center focus:outline-0" placeholder="Search or start new chat">
+                        </div>
+                        <div>
+                            <i class="text-xl fa-solid fa-bars"></i>
+                        </div>
+                    </div>
+                </header>
+                <main class="h-[calc(99vh-7rem)] overflow-y-auto text-sm">
+                    <div id="chats">
+                        <div class="flex justify-between px-5 py-3 hover:bg-gray-200">
+                            <div class="w-4/5 flex items-center gap-5">
+                                <div> 
+                                    <i class="text-5xl fa-solid fa-circle-user"></i>
+                                </div>
+                                <div class="">
+                                    <h2 class="text-lg"> Contact Group 1</h2>
+                                    <span class="text-gray-500 font-light">Message</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="text-gray-500 font-light">Yesterday</span>
+                            </div>
+                        </div>
+
+                        <div class="flex justify-between px-5 py-3 hover:bg-gray-200">
+                            <div class="w-4/5 flex items-center gap-5">
+                                <div> 
+                                    <i class="text-5xl text-sky-400 fa-solid fa-circle-user"></i>
+                                </div>
+                                <div class="">
+                                    <h2 class="text-lg"> Contact Group 2</h2>
+                                    <span class="text-gray-500 font-light">Message</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="text-gray-500 font-light">8/5/2023</span>
+                            </div>
+                        </div>
+                 
+                        <div class="flex justify-between px-5 py-3 hover:bg-gray-200">
+                            <div class="w-4/5 flex items-center gap-5">
+                                <div> 
+                                    <i class="text-5xl text-red-400 fa-solid fa-circle-user"></i>
+                                </div>
+                                <div class="">
+                                    <h2 class="text-lg"> Contact 3</h2>
+                                    <span class="text-gray-500 font-light">Message</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="text-gray-500 font-light">8/5/2023</span>
+                            </div>
+                        </div>
+
+                        <div class="flex justify-between px-5 py-3 hover:bg-gray-200">
+                            <div class="w-4/5 flex items-center gap-5">
+                                <div> 
+                                    <i class="text-5xl text-teal-800 fa-solid fa-circle-user"></i>
+                                </div>
+                                <div class="">
+                                    <h2 class="text-lg"> Contact 4</h2>
+                                    <span class="text-gray-500 font-light">Message</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="text-gray-500 font-light">8/5/2023</span>
+                            </div>
+                        </div>
+                    
+                        <div class="flex justify-between px-5 py-3 hover:bg-gray-200">
+                            <div class="w-4/5 flex items-center gap-5">
+                                <div> 
+                                    <i class="text-5xl text-yellow-800 fa-solid fa-circle-user"></i>
+                                </div>
+                                <div class="">
+                                    <h2 class="text-lg"> Contact 5</h2>
+                                    <span class="text-gray-500 font-light">Message</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="text-gray-500 font-light">8/5/2023</span>
+                            </div>
+                        </div>
+                    
+                        <div class="flex justify-between px-5 py-3 hover:bg-gray-200">
+                            <div class="w-4/5 flex items-center gap-5">
+                                <div> 
+                                    <i class="text-5xl text-blue-800 fa-solid fa-circle-user"></i>
+                                </div>
+                                <div class="">
+                                    <h2 class="text-lg"> Contact 6</h2>
+                                    <span class="text-gray-500 font-light">Message</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="text-gray-500 font-light">8/5/2023</span>
+                            </div>
+                        </div>
+                   
+                        <div class="flex justify-between px-5 py-3 hover:bg-gray-200">
+                            <div class="w-4/5 flex items-center gap-5">
+                                <div> 
+                                    <i class="text-5xl text-slate-800 fa-solid fa-circle-user"></i>
+                                </div>
+                                <div class="">
+                                    <h2 class="text-lg"> + 8989898989</h2>
+                                    <span class="text-gray-500 font-light">Message</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="text-gray-500 font-light">8/5/2023</span>
+                            </div>
+                        </div>
+                                   
+                        <div class="flex justify-between px-5 py-3 hover:bg-gray-200">
+                            <div class="w-4/5 flex items-center gap-5">
+                                <div> 
+                                    <i class="text-5xl text-fuchsia-500 fa-solid fa-circle-user"></i>
+                                </div>
+                                <div class="">
+                                    <h2 class="text-lg"> + 8989898989</h2>
+                                    <span class="text-gray-500 font-light">Message</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="text-gray-500 font-light">8/5/2023</span>
+                            </div>
+                        </div>
+                
+                        <div class="flex justify-between px-5 py-3 hover:bg-gray-200">
+                            <div class="w-4/5 flex items-center gap-5">
+                                <div> 
+                                    <i class="text-5xl text-orange-500 fa-solid fa-circle-user"></i>
+                                </div>
+                                <div class="">
+                                    <h2 class="text-lg"> + 8989898989</h2>
+                                    <span class="text-gray-500 font-light">Message</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="text-gray-500 font-light">8/5/2023</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="border-t-2">
+                        <p class="mx-5 my-2 text-center text-xs"><i class="fa-solid fa-lock"></i> Your personal messages are <a class="text-sky-600" href="https://www.google.com/search?q=End+to+end+encryption+Explained&rlz=1C1CHBF_enIN1021IN1021&oq=how+to&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDsyBwgCEAAYgAQyDQgDEAAYgwEYsQMYigUyDQgEEAAYgwEYsQMYgAQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQgzMDE5ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8">end-to-end encrypted</a> </p>
+                    </div>
+                    <div class="h-6"></div>
+                </main>
+            </div>
+            <div id="right" class="h-full absolute top-0 md:w-1/2 overflow-hidden md:static">
+                <div class="h-full relative">
+                    <header class="h-14  border-b-2">
+                        <nav class="flex justify-between items-center px-6  py-2 bg-gray-200 text-gray-600">
+                            <div class="flex gap-5 items-center">
+                                <i id="back_btn" class="fa-solid fa-arrow-left text-xl"></i>
+                                <a href=""><i class="fa-solid fa-circle-user text-[2.5rem]"></i></a>
+                                <div class="">
+                                    <h2 id="chat_title" class="text-base text-black"> + 8989898989</h2>
+                                </div>
+                            </div>
+                            <div class="text-lg flex justify-end gap-14">
+                                <i class="fa-solid fa-magnifying-glass w-[10%] px-2"></i>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>    
+                        </nav>
+                    </header>
+
+                    <main class="bg-sky-100 w-full h-[calc(100%-7rem)] py-2 px-4 relative overflow-y-auto overflow-x-hidden">
+                        <!-- make chats -->
+                        <div class="w-4/5 text-center mx-auto bg-orange-100 text-xs p-2 rounded-lg text-slate-700">
+                            <i class="fa-solid fa-lock"></i> Messages are end-to-end encrypted. No one outside of this chat, not even Whatsapp, can read or listen to them.
+                            <a href="https://www.google.com/search?q=End+to+end+encryption+Explained&rlz=1C1CHBF_enIN1021IN1021&oq=how+to&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDsyBwgCEAAYgAQyDQgDEAAYgwEYsQMYigUyDQgEEAAYgwEYsQMYgAQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQgzMDE5ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8">Click to learn more.</a>
+                        </div>
+                        <div class="time">8/14/23</div>
+
+                        <div class="left-chat">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                        <div class="left-chat">
+                            Lorem ipsum dolor sit amet. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        </div>
+                        <div class="left-chat">
+                            Lorem i
+                        </div>
+                        <div class="time">YESTERDAY</div>
+                        <div class="right-chat">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat blanditiis sequi harum aliquid voluptate culpa!
+                        </div>
+                        <div class="right-chat">
+                            Lorem, ipsum dolor  culpa!
+                        </div>
+                        <div class="time">TODAY</div>
+                        <div class="left-chat">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                        <div class="right-chat">
+                            Lorem, ipsum dolor  culpa!
+                        </div>
+                        <div class="right-chat">
+                            Lorem, ipsum dolor  culpa😂
+                        </div>
+                    </main>
+                    <footer class="bg-gray-200 w-full h-14 absolute bottom-0 flex justify-between items-center gap-3 px-4 text-xl font-light text-gray-700">
+                        <i class="fa-regular fa-face-grin"></i>
+                        <i class="fa-solid fa-plus"></i>
+                        <input type="text" class="w-4/5 rounded-md text-lg py-1 text-center focus:outline-0" placeholder="Type a message">
+                        <i class="fa-solid fa-microphone"></i>
+                    </footer>
+            </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="./index.js"></script>
+</body>
+</html>

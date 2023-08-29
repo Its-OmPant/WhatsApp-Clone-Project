@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+.time {
+    @apply bg-gray-200 text-gray-700 text-xs w-fit clear-both text-center mx-auto my-2 rounded-md p-2
+}
+
+.left-chat{
+    @apply w-fit px-4 py-3 text-sm  float-left clear-both rounded-md m-2 bg-white 
+}
+.right-chat{
+    @apply w-fit px-4 py-3 text-sm  float-right clear-both rounded-md m-2 bg-green-200 
+}
+@tailwind utilities;
